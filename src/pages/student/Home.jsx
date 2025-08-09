@@ -2,7 +2,7 @@ import React from 'react'
 import Hero from '../../components/student/Hero'
 import Comapnies from '../../components/student/Comapnies'
 import CourseSection from '../../components/student/CourseSection'
-import CallToAction from '../../components/student/callToAction'
+import CallToAction from '../../components/student/CallToAction'
 import Footer from '../../components/student/Footer'
 import Testimonials from '../../components/student/Testimonials'
 
