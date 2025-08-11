@@ -29,8 +29,8 @@ export default function App() {
       <Route path="/loading/:path" element={<Loading />} />
 
      <Route path="/educator" element={<Educator />}>
-        <Route index element={<DashBoard />} /> 
-        <Route path="add-courses" element={<AddCourses />} /> 
+        <Route path="/educator" element={<DashBoard />} /> 
+        <Route path="add-course" element={<AddCourses />} /> 
         <Route path="my-courses" element={<MyCourses />} /> 
         <Route path="students-enrolled" element={<StudentsEnrolled />} /> 
       </Route>

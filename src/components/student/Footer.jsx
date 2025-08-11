@@ -88,7 +88,7 @@ const Footer = () => {
   <div class="bg-blue-800">
     <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
       <p class="text-white text-sm text-center sm:text-left">© SUFYAN — 2025
-        <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-white ml-1" target="_blank"> @knyttneve</a>
+        <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-white ml-1" target="_blank"> LMS</a>
       </p>
       <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
         <a class="text-white">

@@ -11,14 +11,22 @@ const navigate = useNavigate()
 
   const [allCourses, setAllCourses] = useState([]);
   const [isEducator, setisEducator] = useState(true);
+  const [enrolledCourses, setEnrolledCourses] = useState([]);
+
 
 
   const fetchAllCourses = async () => {
     setAllCourses(dummyCourses); // Set dummy data
   };
 
+  const fetchUserEnrolledCourses = async ()=>{
+    setEnrolledCourses(dummyCourses)
+  }
+ 
+
   useEffect(() => {
     fetchAllCourses(); // Call when component mounts
+    setEnrolledCourses()
   }, []);
 
   const value = {
@@ -27,6 +35,8 @@ const navigate = useNavigate()
     navigate,
     isEducator,
     setisEducator,
+    enrolledCourses,
+    fetchUserEnrolledCourses,
   };
 
   return (
